@@ -1,0 +1,13 @@
+[package]
+name = "lzy_pbkdf2"
+version = "0.1.0"
+authors = ["lzy"]
+edition = "2018"
+
+[lib]
+crate-type = ["lib"]
+
+[dependencies]
+hmac-sha512 = "*"
+sha1 = "*"
+sha256 = "*"
