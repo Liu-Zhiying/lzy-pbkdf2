@@ -3,11 +3,13 @@ name = "lzy_pbkdf2"
 version = "0.1.0"
 authors = ["lzy"]
 edition = "2018"
+description = "A implementation for pbkdf2-hmac-sha1 pbkdf2-hmac-sha256 pbkdf2-hmac-sha512 hmac-sha1 and hmac-sha256"
+license = "GPL-2.0-or-later WITH Bison-exception-2.2"
 
 [lib]
 crate-type = ["lib"]
 
 [dependencies]
-hmac-sha512 = "*"
-sha1 = "*"
-sha256 = "*"
+hmac-sha512 = "0.1.9"
+sha1 = "0.6.0"
+sha256 = "1.0.2"
